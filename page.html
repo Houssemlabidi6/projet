@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="image.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Portfolio</title>
   </head>
   <body>
@@ -13,20 +21,20 @@
     </header>
     <hr />
     <nav>
-      <ol type="I">
-        <li><a href="#a">Home</a></li>
-        <li><a href="#b">About</a></li>
-        <li><a href="#c">Work</a></li>
-        <li><a href="#d">Resume</a></li>
-        <li><a href="#e">Contact</a></li>
-      </ol>
+      <ul class="x">
+        <li class="y"><a href="#a">Home</a></li>
+        <li class="y"><a href="#b">About</a></li>
+        <li class="y"><a href="#c">Work</a></li>
+        <li class="y"><a href="#d">Resume</a></li>
+        <li class="y"><a href="#e">Contact</a></li>
+      </ul>
     </nav>
     <hr />
     <main>
       <section>
         <h3 id="a">Home</h3>
-        <strong
-          >Hello! <br />
+        <strong>
+          <span> Hello! </span> <br />
           I am Houssem Labidi An Electronic Engineering And Embedded System.
           <br />
           I am a hobbyist Full-Stack Developer with a passion for learning and
@@ -63,7 +71,7 @@
           Java, Javascript, Python, C
         </ul>
         <br />
-        <table border="1">
+        <table id="z" border="1">
           <tr>
             <th>LANGUAGES</th>
             <th>LEVEL</th>
@@ -109,6 +117,7 @@
         <textarea rows="4" cols="50" name="comment" form="usrform">
         Enter text here...</textarea
         >
+        <br />
         <input type="submit" value="Connect" />
       </form>
     </aside>
